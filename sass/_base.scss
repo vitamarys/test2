@@ -1,0 +1,26 @@
+
+
+html {
+  
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+
+}
+body{
+  background: #0C0C0C;
+  color: #FFFFFF;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    @media (max-width:768px) {
+      max-width:100%;
+      width: 100%;
+      padding: 0 15px;
+    }
+}
+
